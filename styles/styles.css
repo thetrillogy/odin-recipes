@@ -9,12 +9,12 @@ body {
     text-align: center;
 }
 
-.description-container {
-    text-align: center;
+.sub-headers {
+    color: #457b9d;
 }
 
-.header.description {
-    color: #457b9d;
+.description-container {
+    text-align: center;
 }
 
 img {
@@ -30,6 +30,10 @@ img {
     width: 500px;
 }
 
+.history-pizza {
+    font-weight: 800;
+}
+
 div.list-container {
     text-align: center;
 }
@@ -40,4 +44,31 @@ div.list-container {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.redirect-container {
+    text-align: center;
+}
+
+.redirect {
+    display: inline-block;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    background-color: #f1faee;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    bottom:0;
 }
