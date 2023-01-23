@@ -1,9 +1,11 @@
+/*Body Container*/
 body {
     background-color: #f1faee;
     font-family: Arial, Helvetica, sans-serif;
     color: #1d3557;
 }
 
+/*Header Styles*/
 .header {
     color: #e63946;
     text-align: center;
@@ -13,10 +15,7 @@ body {
     color: #457b9d;
 }
 
-.description-container {
-    text-align: center;
-}
-
+/*Image Styles*/
 img {
     display: block;
     height: auto;
@@ -25,15 +24,12 @@ img {
     width: 500px;
 }
 
-.pizza-img {
+.pizza-img { /*Pizza Image*/
     height: 500px;
     width: 500px;
 }
 
-.history-pizza {
-    font-weight: 800;
-}
-
+/*Homepage Styles*/
 div.list-container {
     text-align: center;
 }
@@ -46,6 +42,26 @@ div.list-container {
     margin-right: auto;
 }
 
+/*Recipe Styles*/
+.description-container {
+    text-align: center;
+}
+
+/*Pizza Styles*/
+.history-pizza {
+    font-weight: 800;
+}
+
+
+
+/*Footer Container and Styles*/
+footer {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    background-color: #f1faee;
+}
+
 .redirect-container {
     text-align: center;
 }
@@ -55,13 +71,6 @@ div.list-container {
     font-weight: 800;
     margin-left: auto;
     margin-right: auto;
-}
-
-footer {
-    position: relative;
-    height: 120px;
-    width: 100%;
-    background-color: #f1faee;
 }
 
 p.copyright {
