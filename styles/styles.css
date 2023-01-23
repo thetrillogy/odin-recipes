@@ -1,0 +1,43 @@
+body {
+    background-color: #f1faee;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d3557;
+}
+
+.header {
+    color: #e63946;
+    text-align: center;
+}
+
+.description-container {
+    text-align: center;
+}
+
+.header.description {
+    color: #457b9d;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.pizza-img {
+    height: 500px;
+    width: 500px;
+}
+
+div.list-container {
+    text-align: center;
+}
+
+.list-home {
+    color: #457b9d;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
